@@ -8,9 +8,7 @@
 
 **Production-grade ML system for loan default prediction, explainable credit decisioning, fraud detection, and portfolio risk analytics.**
 
-[![CI](https://github.com/your-org/credit-risk-platform/actions/workflows/ci.yml/badge.svg)](https://github.com/your-org/credit-risk-platform/actions/workflows/ci.yml)
-[![CD](https://github.com/your-org/credit-risk-platform/actions/workflows/cd.yml/badge.svg)](https://github.com/your-org/credit-risk-platform/actions/workflows/cd.yml)
-[![Security Scan](https://github.com/your-org/credit-risk-platform/actions/workflows/security-scan.yml/badge.svg)](https://github.com/your-org/credit-risk-platform/actions/workflows/security-scan.yml)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-22c55e.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.11+-3776ab.svg?logo=python)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115-009688.svg?logo=fastapi)](https://fastapi.tiangolo.com)
