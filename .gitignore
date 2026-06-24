@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+ENV/
+.env
+!.env.example
+
+# ML artifacts — model bundles are too large for Git, managed via S3/DVC
+backend/app/ml/artifacts/*.joblib
+backend/app/ml/artifacts/*.pkl
+backend/app/ml/artifacts/explainer_reference_sample.csv
+mlruns/
+.mlflow/
+
+# Data files — downloaded or generated, not committed
+data/raw/
+data/processed/
+data/synthetic/*.csv
+data/synthetic/*.meta.json
+!data/synthetic/.gitkeep
+
+# Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# Infrastructure
+infra/terraform/.terraform/
+infra/terraform/*.tfstate
+infra/terraform/*.tfstate.backup
+infra/terraform/.terraform.lock.hcl
+infra/terraform/environments/*.tfvars
+!infra/terraform/environments/*.tfvars.example
+*.tfvars
+
+# Editors and OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+Thumbs.db
+
+# Coverage and test artifacts
+.coverage
+htmlcov/
+coverage.xml
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Logs
+*.log
+logs/
+
+# Secrets (belt and suspenders)
+*.pem
+*.key
+*.cert
+secrets.yaml
